@@ -6,4 +6,3 @@ mne
 eeg-positions
 scikit-learn
 tqdm
-🧠
