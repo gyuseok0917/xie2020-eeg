@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+matplotlib
+mne
+eeg-positions
+scikit-learn
+tqdm
