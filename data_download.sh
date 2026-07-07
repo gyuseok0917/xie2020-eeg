@@ -73,5 +73,3 @@ done
 echo ""
 echo "========================================"
 echo "😊 The entire data setup pipeline has completed successfully!"
-
-🧠
