@@ -53,8 +53,9 @@ data
 
 
 ## Data preprocessing
-Run the script below for preprocessing. `preprocess_data.py` applies Morlet wavelet time-frequency analysis and</br>
-baseline dB normalization to raw EEG data, then crops and downsamples the result before saving it as a `.npy` file.
+Run the script below for preprocessing. This step operates on `PreprocData` (already filtered/ICA-cleaned),</br>
+not raw EEG. `preprocess_data.py` applies Morlet wavelet time-frequency analysis and</br>
+baseline dB normalization to the data, then crops and downsamples the result before saving it as a `.npy` file.
 ```
 python preprocess_data.py
 ```
