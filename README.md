@@ -3,7 +3,7 @@ This repository was created to reproduce experiments in</br>
 [Visual Imagery and Perception Share Neural Representations in the Alpha Frequency Band](https://www.sciencedirect.com/science/article/pii/S096098222030590X)
 
 ## Environment Setting
-1. Create virtual environment
+1. Create environment
 ```
 conda create neuro python=3.10
 conda activate neuro
