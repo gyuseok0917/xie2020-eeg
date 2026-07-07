@@ -24,7 +24,9 @@ chmod +x data_download.sh
 ```
 
 ### Subject file list
-```subj*
+
+```
+subj*
 ├── img.mat            # Imagery EEG
 ├── info_channel.mat   # EEG Channel Information
 └── per.mat            # Perception EEG
