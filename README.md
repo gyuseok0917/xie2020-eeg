@@ -42,9 +42,9 @@ data
 │   │   │   ├── xxx.vhdr  # text header file, containing the meta data
 │   │   │   └── xxx.vmrk  # text marker file, containing information about events
 │   │   └── per   # Perception
-│   │   │   ├── xxx.eeg
-│   │   │   ├── xxx.vhdr
-│   │   │   └── xxx.vmrk
+│   │       ├── xxx.eeg
+│   │       ├── xxx.vhdr
+│   │       └── xxx.vmrk
 │   ├── subj02
 │   ├── ...
 │   └── subj38
