@@ -12,6 +12,13 @@ conda activate neuro
 ```
 pip install -r requirements.txt
 ```
+3. Jupyter notebook kernel connection
+- Install `ipykernel`
+- Connect virtual environment to Jupyter notebook
+```
+pip install ipykernel
+python -m ipykernel install --user --name neuro --display-name neuro
+```
 
 ## Data available
 
@@ -76,6 +83,20 @@ baseline dB normalization to the data, then crops and downsamples the result bef
 ```
 python preprocess_data.py
 ```
+
+## MVPA Cross Decoding
+Cross decoding experiments are possible in `binary_classification_mvpa.ipynb`.</br>
+It supports experiments on three bands by changing the `band`.
+
+## Result
+- Theta (5-7 Hz)
+![Theta](assets/result_theta.png)
+
+- Alpha (8-13 Hz)
+![Alpha](assets/result_alpha.png)
+
+- Beta (14-31 Hz)
+![Beta](assets/result_beta.png)
 
 ## Reference
 ```
